@@ -13,6 +13,7 @@ $(document).ready(function(){
         $(this).css("background-color", "white");
       });
 
+      
     /*
     //$('#myDiv').text('Hello World');
     //$('#myDiv').html('<h3>Hello World</h3>');
