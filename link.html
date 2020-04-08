@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Links</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<style>
+		body{
+			font-size: 17px;
+			font-family: arial;
+			background: #f4f4f4;
+			line-height: 1.5em;
+		}
+		header{
+			background:#333;
+			color:#fff;
+			padding:20px;
+			text-align: center;
+			border-bottom: 4px #000 solid;
+			margin-bottom: 10px;
+		}
+		#container{
+			width:90%;
+			margin:auto;
+			padding:10px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Links</h1>
+	</header>
+	<div id="container">
+		
+
+		<a href="http://google.com">Google</a>
+		<a href="http://yahoo.com">Yahoo</a>
+	</div>
+
+	<script>
+		
+
+		//$('p span').css('color', 'red');
+
+		
+		$('[href]').css('color', 'red');
+		$('a[href="http://yahoo.com"]').css('color', 'green');
+		
+	</script>
+</body>
+</html>
