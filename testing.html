@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>to Red</title>
+</head>
+<body>
+<button id="changeGreen">Change Font Color Green</button>
+<button id="changeRed">Change Font Color Red</button>
+<p>
+<span id="output">Trying to make this Paragraph change colors.</span>
+</p>
+<script>
+
+document.getElementById("changeGreen").onclick = function(){
+	document.getElementById("output").style.color = 'green';
+}
+
+document.getElementById("changeRed").onclick = function(){
+    document.getElementById("output").style.color = 'red';
+    
+}
+</script>
+</body>
+</html>
